@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*==nav bar ==*/
+#titel {
+  background-color: rgb(41, 0, 145);
+}
+.container-fluid {
+  padding: 1% 15% ;
+}
+.navbar {
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.navbar-brand span {
+  font-size: 2.1rem;
+}
+#titel h1 {
+  color: #f6f6ff;
+  font-size: 3.9rem;
+  line-height: 1.2;
+
+  text-align: left;
+}
+h1,h2,h3 .intro-text{
+  font-family: "Playfair Display", serif;
+}
+.nav-item {
+  margin-right: 2rem;
+}
+.nav-item a {
+  color: rgb(237, 237, 237);
+}
+/*==dog-img==*/
+/* .img-box {
+  padding: 1rem;
+} */
+.dog-img {
+  position: absolute;
+  width: 20%;
+  transform: rotate(24deg);
+  right: 30%;
+}
+.dog-img:hover {
+  cursor: pointer;
+  transform: rotate(0deg);
+}
+/*==titel button ==*/
+.button-download {
+  margin: 19% 2% 5% 0;
+  font-family: monospace;
+}
+/* features section */
+
+.features {
+  position: relative;
+  background-color: #fff;
+  padding: 7% 18%;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5% 5% 0% 5%;
+  text-align: center;
+}
+h3 {
+  font-size: 3.5rem;
+
+}
+p {
+  color: #8f8f8f;
+  padding: 0% 10%;
+  font-size: 0.9rem;
+}
+.icon {
+  margin-bottom: 1rem;
+  color: rgb(233, 193, 140);
+}
+.icon:hover {
+  color: rgb(255, 215, 162);
+}
+/* testimonial section */
+.testimonial {
+  text-align: center;
+  background-color: rgb(233, 193, 140);
+  color: #f6f6ff;
+}
+.carousel-item {
+  padding: 5% 16%;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+.testimonial h2 {
+  font-size: 3rem;
+}
+ 
+/* press-box */
+#press-box {
+  background-color: rgb(233, 193, 140);
+  text-align: center;
+}
+.press-img {
+  margin: 2% 0 5% 5%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 1% 10%;
+  text-align: center;
+}
+.pricing-box {
+  padding: 3% 5%;
+}
+/* intro */
+#intro {
+  padding: 3% 20%;
+  background-color: rgb(41, 0, 145);
+  text-align: center;
+  color: #f6f6ff;
+}
+.intro-text {
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.download {
+  margin: 13% 2% 3% 0;
+}
+/* footer */
+#footer {
+  text-align: center;
+  padding: 4% 18%;
+}
+#footer i {
+  padding: 1rem;
+}
+@media (max-width: 990px) {
+  #titel {
+    text-align: center;
+  }
+  .dog-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 40%;
+  }
+}
+@media (max-width:400px) {
+  #titel h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .testimonial h2{
+    font-size: 1.8rem;
+  }
+  .intro-text{
+    font-size: 2rem;
+  }
+}
